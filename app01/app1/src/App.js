@@ -1,12 +1,16 @@
-import React from 'react';
+import React, { Component } from 'react';
 
+class App extends Component{
+  name = "Viraj"
 
-function App() {
-  return (
-    <div className="App">
-      React
-    </div>
-  );
+  render(){
+    return(
+      <div className="App">
+        React : 
+        <b>{this.name}</b>
+      </div>
+    );
+  }
 }
 
 export default App;
